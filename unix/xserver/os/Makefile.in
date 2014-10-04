@@ -86,8 +86,8 @@ host_triplet = @host@
 @BUSFAULT_TRUE@am__append_5 = $(BUSFAULT_SRCS)
 @SPECIAL_DTRACE_OBJECTS_TRUE@noinst_PROGRAMS = os.O$(EXEEXT)
 subdir = os
-DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am strcasecmp.c \
-	strlcat.c strndup.c strlcpy.c strcasestr.c \
+DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am strlcat.c \
+	strlcpy.c strndup.c strcasecmp.c strcasestr.c \
 	$(top_srcdir)/depcomp
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/ac_define_dir.m4 \
