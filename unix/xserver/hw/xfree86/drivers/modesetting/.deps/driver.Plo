@@ -1,0 +1,694 @@
+driver.lo: driver.c \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/stdc-predef.h \
+ ../../../../include/dix-config.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/unistd.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/features.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/cdefs.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/wordsize.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/gnu/stubs.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/gnu/stubs-x32.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/posix_opt.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/environments.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/typesizes.h \
+ /usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include/stddef.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/confname.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/getopt.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/fcntl.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/fcntl.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/fcntl-linux.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/uio.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/time.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/endian.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/endian.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/byteswap.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/byteswap-16.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/select.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/select.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigset.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/time.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/sysmacros.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/pthreadtypes.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stat.h \
+ ../../../../hw/xfree86/common/xf86.h ../../../../include/xorg-config.h \
+ ../../../../include/xkb-config.h ../../../../hw/xfree86/common/xf86str.h \
+ ../../../../include/misc.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xosdefs.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xfuncproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xmd.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/X.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xdefs.h \
+ /usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include/stdint.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/stdint.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/wchar.h \
+ ../../../../include/os.h ../../../../include/misc.h \
+ /usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include/stdarg.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/string.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/xlocale.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/string.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/string2.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/stdlib.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/stdio.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/libio.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/_G_config.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/wchar.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdio_lim.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sys_errlist.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdio.h \
+ ../../../../include/Xprintf.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xfuncs.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/waitflags.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/waitstatus.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/alloca.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdlib-bsearch.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdlib-float.h \
+ /usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include-fixed/limits.h \
+ /usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include-fixed/syslimits.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/limits.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/posix1_lim.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/local_lim.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/limits.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/posix2_lim.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/xopen_lim.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/math.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/huge_val.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/huge_valf.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/huge_vall.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/inf.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/nan.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/mathdef.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/mathcalls.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/mathinline.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/assert.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/ctype.h \
+ ../../../../include/input.h ../../../../include/screenint.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xprotostr.h \
+ ../../../../include/window.h ../../../../include/region.h \
+ ../../../../include/regionstr.h ../../../../include/miscstruct.h \
+ /opt/Xorg/include/pixman-1/pixman.h \
+ /opt/Xorg/include/pixman-1/pixman-version.h \
+ ../../../../include/xkbrules.h ../../../../include/events.h \
+ ../../../../include/list.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XI2.h \
+ ../../../../include/scrnintstr.h ../../../../include/colormap.h \
+ ../../../../include/cursor.h ../../../../include/privates.h \
+ ../../../../include/dix.h ../../../../include/callback.h \
+ ../../../../include/gc.h ../../../../include/pixmap.h \
+ ../../../../include/input.h ../../../../Xext/geext.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/geproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/ge.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XI.h \
+ ../../../../include/resource.h ../../../../include/dixaccess.h \
+ ../../../../include/validate.h ../../../../include/pixmapstr.h \
+ ../../../../miext/damage/damage.h ../../../../include/colormapst.h \
+ ../../../../hw/xfree86/common/xf86Module.h \
+ ../../../../include/extension.h ../../../../include/dixstruct.h \
+ ../../../../include/client.h ../../../../hw/xfree86/common/xf86Opt.h \
+ ../../../../hw/xfree86/common/xf86Optionstr.h ../../../../include/list.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/inttypes.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/randr.h \
+ ../../../../include/propertyst.h ../../../../include/property.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/pciaccess.h \
+ ../../../../hw/xfree86/os-support/xf86_OSproc.h \
+ ../../../../include/opaque.h ../../../../include/globals.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/signal.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/signum.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/siginfo.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigaction.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigcontext.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigstack.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/ucontext.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigthread.h \
+ ../../../../include/extinit.h ../../../../include/extnsionst.h \
+ ../../../../include/extension.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/dpmsconst.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/panoramiXproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XResproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/saver.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shapeproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shapeconst.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shm.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shmproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XKB.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/xtestconst.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/xtestproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/Xv.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XvMC.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/dri3proto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/presentproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/presenttokens.h \
+ ../../../../present/presentext.h \
+ ../../../../hw/xfree86/common/xf86Optionstr.h \
+ ../../../../include/hotplug.h ../../../../hw/xfree86/common/compiler.h \
+ ../../../../hw/xfree86/os-support/bus/xf86Pci.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xarch.h \
+ ../../../../mi/mipointer.h ../../../../include/cursor.h \
+ ../../../../include/privates.h ../../../../mi/micmap.h \
+ ../../../../fb/fb.h ../../../../include/pixmap.h \
+ ../../../../include/region.h ../../../../include/gcstruct.h \
+ ../../../../include/colormap.h ../../../../include/miscstruct.h \
+ ../../../../include/servermd.h ../../../../include/windowstr.h \
+ ../../../../include/pixmapstr.h ../../../../include/opaque.h \
+ ../../../../mi/mi.h ../../../../include/validate.h \
+ ../../../../include/window.h ../../../../include/gc.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/fonts/font.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/fonts/fsmasks.h \
+ ../../../../include/events.h ../../../../mi/migc.h \
+ ../../../../render/picturestr.h ../../../../render/glyphstr.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/renderproto.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/render.h \
+ ../../../../render/picture.h ../../../../include/screenint.h \
+ ../../../../include/regionstr.h ../../../../include/resource.h \
+ ../../../../fb/fbrop.h ../../../../mi/micoord.h ../../ddc/edid.h \
+ ../../i2c/xf86i2c.h ../../modes/xf86Crtc.h ../../../../randr/randrstr.h \
+ ../../../../include/os.h ../../../../include/dixstruct.h \
+ ../../../../include/extnsionst.h ../../../../randr/rrtransform.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/randrproto.h \
+ ../../modes/xf86Modes.h ../../../../hw/xfree86/common/xorgVersion.h \
+ ../../parser/xf86Parser.h ../../parser/xf86Optrec.h \
+ ../../ramdac/xf86Cursor.h ../../../../hw/xfree86/common/xf86str.h \
+ ../../../../miext/shadow/shadow.h ../../../../miext/damage/damagestr.h \
+ ../../../../miext/damage/damage.h ../../../../hw/xfree86/common/xf86xv.h \
+ ../../../../Xext/xvdix.h \
+ /var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/Xvproto.h \
+ ../../../../hw/xfree86/common/xf86platformBus.h driver.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/errno.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/errno.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/errno.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/errno.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/errno.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/errno-base.h \
+ /usr/include/libdrm/drm.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/int-ll64.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/bitsperlong.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/bitsperlong.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/posix_types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/stddef.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/posix_types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/posix_types_x32.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/posix_types_64.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/posix_types.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/ioctl.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/ioctl.h \
+ /usr/include/libdrm/drm_mode.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/xf86drm.h drmmode_display.h \
+ /var/opt/dtsbuild/sysroot/x86_32/usr/include/xf86drmMode.h
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/stdc-predef.h:
+
+../../../../include/dix-config.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/unistd.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/features.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/cdefs.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/wordsize.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/gnu/stubs.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/gnu/stubs-x32.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/posix_opt.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/environments.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/typesizes.h:
+
+/usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include/stddef.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/confname.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/getopt.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/fcntl.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/fcntl.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/fcntl-linux.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/uio.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/time.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/endian.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/endian.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/byteswap.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/byteswap-16.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/select.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/select.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigset.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/time.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/sysmacros.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/pthreadtypes.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stat.h:
+
+../../../../hw/xfree86/common/xf86.h:
+
+../../../../include/xorg-config.h:
+
+../../../../include/xkb-config.h:
+
+../../../../hw/xfree86/common/xf86str.h:
+
+../../../../include/misc.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xosdefs.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xfuncproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xmd.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/X.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xdefs.h:
+
+/usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include/stdint.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/stdint.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/wchar.h:
+
+../../../../include/os.h:
+
+../../../../include/misc.h:
+
+/usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include/stdarg.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/string.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/xlocale.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/string.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/string2.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/stdlib.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/stdio.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/libio.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/_G_config.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/wchar.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdio_lim.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sys_errlist.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdio.h:
+
+../../../../include/Xprintf.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xfuncs.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/waitflags.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/waitstatus.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/alloca.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdlib-bsearch.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/stdlib-float.h:
+
+/usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include-fixed/limits.h:
+
+/usr/libx32/gcc/x86_64-linux-gnux32/4.9.1/include-fixed/syslimits.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/limits.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/posix1_lim.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/local_lim.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/limits.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/posix2_lim.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/xopen_lim.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/math.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/huge_val.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/huge_valf.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/huge_vall.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/inf.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/nan.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/mathdef.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/mathcalls.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/mathinline.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/assert.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/ctype.h:
+
+../../../../include/input.h:
+
+../../../../include/screenint.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xprotostr.h:
+
+../../../../include/window.h:
+
+../../../../include/region.h:
+
+../../../../include/regionstr.h:
+
+../../../../include/miscstruct.h:
+
+/opt/Xorg/include/pixman-1/pixman.h:
+
+/opt/Xorg/include/pixman-1/pixman-version.h:
+
+../../../../include/xkbrules.h:
+
+../../../../include/events.h:
+
+../../../../include/list.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XI2.h:
+
+../../../../include/scrnintstr.h:
+
+../../../../include/colormap.h:
+
+../../../../include/cursor.h:
+
+../../../../include/privates.h:
+
+../../../../include/dix.h:
+
+../../../../include/callback.h:
+
+../../../../include/gc.h:
+
+../../../../include/pixmap.h:
+
+../../../../include/input.h:
+
+../../../../Xext/geext.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/geproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/ge.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XI.h:
+
+../../../../include/resource.h:
+
+../../../../include/dixaccess.h:
+
+../../../../include/validate.h:
+
+../../../../include/pixmapstr.h:
+
+../../../../miext/damage/damage.h:
+
+../../../../include/colormapst.h:
+
+../../../../hw/xfree86/common/xf86Module.h:
+
+../../../../include/extension.h:
+
+../../../../include/dixstruct.h:
+
+../../../../include/client.h:
+
+../../../../hw/xfree86/common/xf86Opt.h:
+
+../../../../hw/xfree86/common/xf86Optionstr.h:
+
+../../../../include/list.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/inttypes.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/randr.h:
+
+../../../../include/propertyst.h:
+
+../../../../include/property.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/pciaccess.h:
+
+../../../../hw/xfree86/os-support/xf86_OSproc.h:
+
+../../../../include/opaque.h:
+
+../../../../include/globals.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/signal.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/signum.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/siginfo.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigaction.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigcontext.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigstack.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/sys/ucontext.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/sigthread.h:
+
+../../../../include/extinit.h:
+
+../../../../include/extnsionst.h:
+
+../../../../include/extension.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/dpmsconst.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/panoramiXproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XResproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/saver.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shapeproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shapeconst.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shm.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/shmproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XKB.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/xtestconst.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/xtestproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/Xv.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/XvMC.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/dri3proto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/presentproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/presenttokens.h:
+
+../../../../present/presentext.h:
+
+../../../../hw/xfree86/common/xf86Optionstr.h:
+
+../../../../include/hotplug.h:
+
+../../../../hw/xfree86/common/compiler.h:
+
+../../../../hw/xfree86/os-support/bus/xf86Pci.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/Xarch.h:
+
+../../../../mi/mipointer.h:
+
+../../../../include/cursor.h:
+
+../../../../include/privates.h:
+
+../../../../mi/micmap.h:
+
+../../../../fb/fb.h:
+
+../../../../include/pixmap.h:
+
+../../../../include/region.h:
+
+../../../../include/gcstruct.h:
+
+../../../../include/colormap.h:
+
+../../../../include/miscstruct.h:
+
+../../../../include/servermd.h:
+
+../../../../include/windowstr.h:
+
+../../../../include/pixmapstr.h:
+
+../../../../include/opaque.h:
+
+../../../../mi/mi.h:
+
+../../../../include/validate.h:
+
+../../../../include/window.h:
+
+../../../../include/gc.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/fonts/font.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/fonts/fsmasks.h:
+
+../../../../include/events.h:
+
+../../../../mi/migc.h:
+
+../../../../render/picturestr.h:
+
+../../../../render/glyphstr.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/renderproto.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/render.h:
+
+../../../../render/picture.h:
+
+../../../../include/screenint.h:
+
+../../../../include/regionstr.h:
+
+../../../../include/resource.h:
+
+../../../../fb/fbrop.h:
+
+../../../../mi/micoord.h:
+
+../../ddc/edid.h:
+
+../../i2c/xf86i2c.h:
+
+../../modes/xf86Crtc.h:
+
+../../../../randr/randrstr.h:
+
+../../../../include/os.h:
+
+../../../../include/dixstruct.h:
+
+../../../../include/extnsionst.h:
+
+../../../../randr/rrtransform.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/randrproto.h:
+
+../../modes/xf86Modes.h:
+
+../../../../hw/xfree86/common/xorgVersion.h:
+
+../../parser/xf86Parser.h:
+
+../../parser/xf86Optrec.h:
+
+../../ramdac/xf86Cursor.h:
+
+../../../../hw/xfree86/common/xf86str.h:
+
+../../../../miext/shadow/shadow.h:
+
+../../../../miext/damage/damagestr.h:
+
+../../../../miext/damage/damage.h:
+
+../../../../hw/xfree86/common/xf86xv.h:
+
+../../../../Xext/xvdix.h:
+
+/var/opt/dtsbuild/sysroot/x86_32//opt/Xorg/include/X11/extensions/Xvproto.h:
+
+../../../../hw/xfree86/common/xf86platformBus.h:
+
+driver.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/errno.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/bits/errno.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/errno.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/errno.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/errno.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/errno-base.h:
+
+/usr/include/libdrm/drm.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/int-ll64.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/bitsperlong.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/bitsperlong.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/posix_types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/linux/stddef.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/posix_types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/posix_types_x32.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/posix_types_64.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/posix_types.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm/ioctl.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/asm-generic/ioctl.h:
+
+/usr/include/libdrm/drm_mode.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/xf86drm.h:
+
+drmmode_display.h:
+
+/var/opt/dtsbuild/sysroot/x86_32/usr/include/xf86drmMode.h:
