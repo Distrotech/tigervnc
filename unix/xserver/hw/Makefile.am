@@ -38,7 +38,8 @@ SUBDIRS =			\
 	$(DMX_SUBDIRS)		\
 	$(KDRIVE_SUBDIRS)	\
 	$(XQUARTZ_SUBDIRS)	\
-	$(XWAYLAND_SUBDIRS)
+	$(XWAYLAND_SUBDIRS)	\
+	vnc
 
 DIST_SUBDIRS = dmx xfree86 vfb xnest xwin xquartz kdrive xwayland
 

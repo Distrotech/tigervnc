@@ -125,6 +125,9 @@ static void DoTimer(OsTimerPtr timer, CARD32 now, OsTimerPtr *prev);
 static void CheckAllTimers(void);
 static OsTimerPtr timers = NULL;
 
+extern void vncWriteBlockHandler(fd_set *fds);
+extern void vncWriteWakeupHandler(int nfds, fd_set *fds);
+
 /*****************
  * WaitForSomething:
  *     Make the server suspend until there is
@@ -150,6 +153,7 @@ WaitForSomething(int *pClientsReady)
     INT32 timeout = 0;
     fd_set clientsReadable;
     fd_set clientsWritable;
+    fd_set socketsWritable;
     int curclient;
     int selecterr;
     static int nready;
@@ -212,6 +216,9 @@ WaitForSomething(int *pClientsReady)
             XFD_COPYSET(&AllSockets, &LastSelectMask);
         }
 
+        FD_ZERO(&socketsWritable);
+        vncWriteBlockHandler(&socketsWritable);
+
         BlockHandler((void *) &wt, (void *) &LastSelectMask);
         if (NewOutputPending)
             FlushAllOutput();
@@ -223,10 +230,20 @@ WaitForSomething(int *pClientsReady)
             i = Select(MaxClients, &LastSelectMask, &clientsWritable, NULL, wt);
         }
         else {
-            i = Select(MaxClients, &LastSelectMask, NULL, NULL, wt);
+	    if (AnyClientsWriteBlocked)
+		XFD_ORSET(&socketsWritable, &ClientsWriteBlocked, &socketsWritable);
+
+	    if (XFD_ANYSET(&socketsWritable)) {
+		i = Select(MaxClients, &LastSelectMask, &socketsWritable, NULL, wt);
+		if (AnyClientsWriteBlocked)
+		    XFD_ANDSET(&clientsWritable, &socketsWritable, &ClientsWriteBlocked);
+	    } else {
+		i = Select(MaxClients, &LastSelectMask, NULL, NULL, wt);
+	    }
         }
         selecterr = GetErrno();
         WakeupHandler(i, (void *) &LastSelectMask);
+	vncWriteWakeupHandler(i, &socketsWritable);
         if (i <= 0) {           /* An error or timeout occurred */
             if (dispatchException)
                 return 0;

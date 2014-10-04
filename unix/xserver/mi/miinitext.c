@@ -111,6 +111,10 @@ SOFTWARE.
 #include "micmap.h"
 #include "globals.h"
 
+#ifdef TIGERVNC
+extern void vncExtensionInit(INITARGS);
+#endif
+
 /* The following is only a small first step towards run-time
  * configurable extensions.
  */
@@ -235,6 +239,9 @@ EnableDisableExtensionError(const char *name, Bool enable)
 
 /* List of built-in (statically linked) extensions */
 static const ExtensionModule staticExtensions[] = {
+#ifdef TIGERVNC
+    {vncExtensionInit, "VNC-EXTENSION", NULL},
+#endif
     {GEExtensionInit, "Generic Event Extension", &noGEExtension},
     {ShapeExtensionInit, "SHAPE", NULL},
 #ifdef MITSHM
