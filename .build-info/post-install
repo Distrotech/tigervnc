@@ -9,7 +9,8 @@ cd unix/xserver
 ./configure --prefix=/opt/Xorg --with-pic --without-dtrace --disable-static --disable-dri \
       --disable-dri2 --disable-xephyr --disable-kdrive --disable-config-hal --disable-config-udev --disable-selective-werror \
       --disable-xvfb --disable-xnest --disable-dmx --enable-install-libxf86config --disable-xnest --disable-xwin --disable-dmx \
-      --enable-glx --disable-xorg
+      --enable-glx --disable-xorg --host=${HOST}
+cp ${ARCHROOT}/${1}/usr/bin/libtool .
 make ${MAKE_J} TIGERVNC_SRCDIR=../../../../../
 make -C hw/vnc DESTDIR=${3} install
 ln -s -r ${3}/opt/Xorg/bin/Xvnc ${3}/usr/bin
