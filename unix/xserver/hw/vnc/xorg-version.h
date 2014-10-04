@@ -49,7 +49,8 @@
 #elif XORG_VERSION_CURRENT < ((1 * 10000000) + (16 * 100000) + (99 * 1000))
 #define XORG 116
 #else
-#error "X.Org newer than 1.16 is not supported"
+#define XORG 116
+#warning "X.Org newer than 1.16 is not supported"
 #endif
 
 #endif

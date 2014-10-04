@@ -98,6 +98,11 @@ extern "C" {
 #define Xfree free
 #endif
 
+#if XORG >= 116
+#define xalloc malloc
+#define xfree free
+#endif
+
 #define XVNCVERSION "TigerVNC 1.3.80"
 #define XVNCCOPYRIGHT ("Copyright (C) 1999-2013 TigerVNC Team and many others (see README.txt)\n" \
                        "See http://www.tigervnc.org for information on TigerVNC.\n")
